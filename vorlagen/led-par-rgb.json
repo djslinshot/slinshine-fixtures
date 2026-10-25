@@ -1,0 +1,15 @@
+{
+  "label": "LED-PAR RGB (3 Kanäle)",
+  "name": "PAR RGB",
+  "kind": "generic",
+  "modes": [
+    {
+      "name": "3 Kanäle",
+      "channels": [
+        { "name": "Rot", "type": "red", "default": 0 },
+        { "name": "Grün", "type": "green", "default": 0 },
+        { "name": "Blau", "type": "blue", "default": 0 }
+      ]
+    }
+  ]
+}

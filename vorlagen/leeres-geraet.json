@@ -1,0 +1,13 @@
+{
+  "label": "Leeres Gerät",
+  "name": "Neues Gerät",
+  "kind": "generic",
+  "modes": [
+    {
+      "name": "1 Kanäle",
+      "channels": [
+        { "name": "Kanal 1", "type": "other", "default": 0 }
+      ]
+    }
+  ]
+}

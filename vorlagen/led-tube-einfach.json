@@ -1,0 +1,17 @@
+{
+  "label": "LED-Tube einfach (Dimmer + RGB + Strobe)",
+  "name": "Tube",
+  "kind": "tube",
+  "modes": [
+    {
+      "name": "5 Kanäle",
+      "channels": [
+        { "name": "Dimmer", "type": "dimmer", "default": 255 },
+        { "name": "Rot", "type": "red", "default": 0 },
+        { "name": "Grün", "type": "green", "default": 0 },
+        { "name": "Blau", "type": "blue", "default": 0 },
+        { "name": "Strobe", "type": "strobe", "default": 0 }
+      ]
+    }
+  ]
+}

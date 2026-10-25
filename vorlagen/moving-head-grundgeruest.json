@@ -1,0 +1,29 @@
+{
+  "label": "Moving Head Grundgerüst (bitte an Anleitung anpassen)",
+  "name": "Moving Head",
+  "kind": "movinghead",
+  "modes": [
+    {
+      "name": "17 Kanäle",
+      "channels": [
+        { "name": "Pan", "type": "pan", "default": 128 },
+        { "name": "Pan fein", "type": "pan_fine", "default": 0 },
+        { "name": "Tilt", "type": "tilt", "default": 128 },
+        { "name": "Tilt fein", "type": "tilt_fine", "default": 0 },
+        { "name": "Pan/Tilt Speed", "type": "speed", "default": 0 },
+        { "name": "Dimmer", "type": "dimmer", "default": 255 },
+        { "name": "Strobe", "type": "strobe", "default": 0 },
+        { "name": "Rot", "type": "red", "default": 0 },
+        { "name": "Grün", "type": "green", "default": 0 },
+        { "name": "Blau", "type": "blue", "default": 0 },
+        { "name": "Weiß", "type": "white", "default": 0 },
+        { "name": "Zoom", "type": "zoom", "default": 0 },
+        { "name": "Ring Rot", "type": "red", "default": 0 },
+        { "name": "Ring Grün", "type": "green", "default": 0 },
+        { "name": "Ring Blau", "type": "blue", "default": 0 },
+        { "name": "Programm", "type": "program", "default": 0 },
+        { "name": "Reset", "type": "reset", "default": 0 }
+      ]
+    }
+  ]
+}

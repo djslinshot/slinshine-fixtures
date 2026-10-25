@@ -1,0 +1,29 @@
+{
+  "label": "U'King 19x15W Moving Head Zoom (16 Kanäle)",
+  "name": "U'King Zoom",
+  "manufacturer": "U'King",
+  "kind": "movinghead",
+  "modes": [
+    {
+      "name": "16 Kanäle Standard",
+      "channels": [
+        { "name": "Pan", "type": "pan", "default": 128 },
+        { "name": "Pan fein", "type": "pan_fine", "default": 0 },
+        { "name": "Tilt", "type": "tilt", "default": 128 },
+        { "name": "Tilt fein", "type": "tilt_fine", "default": 0 },
+        { "name": "Pan/Tilt Speed", "type": "speed", "default": 0 },
+        { "name": "Dimmer", "type": "dimmer", "default": 255 },
+        { "name": "Shutter/Strobe", "type": "strobe", "default": 255 },
+        { "name": "Zoom", "type": "zoom", "default": 128 },
+        { "name": "Rot", "type": "red", "default": 0 },
+        { "name": "Grün", "type": "green", "default": 0 },
+        { "name": "Blau", "type": "blue", "default": 0 },
+        { "name": "Weiß", "type": "white", "default": 0 },
+        { "name": "Farbmakro", "type": "colorwheel", "default": 0 },
+        { "name": "Makro-Speed", "type": "other", "default": 0 },
+        { "name": "Auto-Programme", "type": "program", "default": 0 },
+        { "name": "Reset", "type": "reset", "default": 0 }
+      ]
+    }
+  ]
+}

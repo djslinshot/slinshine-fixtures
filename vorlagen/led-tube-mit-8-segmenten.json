@@ -1,0 +1,36 @@
+{
+  "label": "LED-Tube mit 8 Segmenten (Pixel, je RGB)",
+  "name": "Pixel-Tube",
+  "kind": "tube",
+  "modes": [
+    {
+      "name": "24 Kanäle",
+      "channels": [
+        { "name": "Seg 1 Rot", "type": "red", "default": 0 },
+        { "name": "Seg 1 Grün", "type": "green", "default": 0 },
+        { "name": "Seg 1 Blau", "type": "blue", "default": 0 },
+        { "name": "Seg 2 Rot", "type": "red", "default": 0 },
+        { "name": "Seg 2 Grün", "type": "green", "default": 0 },
+        { "name": "Seg 2 Blau", "type": "blue", "default": 0 },
+        { "name": "Seg 3 Rot", "type": "red", "default": 0 },
+        { "name": "Seg 3 Grün", "type": "green", "default": 0 },
+        { "name": "Seg 3 Blau", "type": "blue", "default": 0 },
+        { "name": "Seg 4 Rot", "type": "red", "default": 0 },
+        { "name": "Seg 4 Grün", "type": "green", "default": 0 },
+        { "name": "Seg 4 Blau", "type": "blue", "default": 0 },
+        { "name": "Seg 5 Rot", "type": "red", "default": 0 },
+        { "name": "Seg 5 Grün", "type": "green", "default": 0 },
+        { "name": "Seg 5 Blau", "type": "blue", "default": 0 },
+        { "name": "Seg 6 Rot", "type": "red", "default": 0 },
+        { "name": "Seg 6 Grün", "type": "green", "default": 0 },
+        { "name": "Seg 6 Blau", "type": "blue", "default": 0 },
+        { "name": "Seg 7 Rot", "type": "red", "default": 0 },
+        { "name": "Seg 7 Grün", "type": "green", "default": 0 },
+        { "name": "Seg 7 Blau", "type": "blue", "default": 0 },
+        { "name": "Seg 8 Rot", "type": "red", "default": 0 },
+        { "name": "Seg 8 Grün", "type": "green", "default": 0 },
+        { "name": "Seg 8 Blau", "type": "blue", "default": 0 }
+      ]
+    }
+  ]
+}

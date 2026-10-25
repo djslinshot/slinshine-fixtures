@@ -1,0 +1,21 @@
+{
+  "dimmer": "Dimmer (Helligkeit)",
+  "red": "Rot",
+  "green": "Grün",
+  "blue": "Blau",
+  "white": "Weiß",
+  "amber": "Amber",
+  "yellow": "Gelb",
+  "uv": "UV",
+  "strobe": "Strobe",
+  "pan": "Pan (drehen)",
+  "pan_fine": "Pan fein",
+  "tilt": "Tilt (neigen)",
+  "tilt_fine": "Tilt fein",
+  "speed": "Geschwindigkeit Pan/Tilt",
+  "zoom": "Zoom",
+  "colorwheel": "Farbrad / Farbmakro",
+  "program": "Programm / Effekt",
+  "reset": "Reset / Steuerung",
+  "other": "Sonstiges"
+}

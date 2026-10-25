@@ -1,0 +1,19 @@
+{
+  "label": "LED-PAR RGB + Dimmer + Strobe + Modus (Stairville-Stil, 7 Kanäle)",
+  "name": "Stairville PAR",
+  "kind": "generic",
+  "modes": [
+    {
+      "name": "7 Kanäle",
+      "channels": [
+        { "name": "Rot", "type": "red", "default": 0 },
+        { "name": "Grün", "type": "green", "default": 0 },
+        { "name": "Blau", "type": "blue", "default": 0 },
+        { "name": "Dimmer", "type": "dimmer", "default": 255 },
+        { "name": "Strobe", "type": "strobe", "default": 0 },
+        { "name": "Modus", "type": "program", "default": 0 },
+        { "name": "Programm-Speed", "type": "other", "default": 0 }
+      ]
+    }
+  ]
+}
