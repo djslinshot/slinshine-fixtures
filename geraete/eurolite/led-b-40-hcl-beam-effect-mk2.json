@@ -1,0 +1,61 @@
+{
+  "label": "LED B-40 HCL Beam Effect MK2",
+  "name": "B-40",
+  "manufacturer": "Eurolite",
+  "kind": "auto",
+  "modes": [
+    {
+      "name": "3 Kanäle",
+      "channels": [
+        { "name": "Rotation (0–5 aus, 6–126 rechts, 127–128 Stopp, 129–255 links)", "type": "effect", "default": 0 },
+        { "name": "Auto/Sound-Programm (16–135 Auto 1–8, 136–255 Sound 1–8)", "type": "program", "default": 0 },
+        { "name": "Geschwindigkeit Programme", "type": "speed", "default": 0 }
+      ]
+    },
+    {
+      "name": "12 Kanäle",
+      "channels": [
+        { "name": "Rotation (0–5 aus, 6–126 rechts, 127–128 Stopp, 129–255 links)", "type": "effect", "default": 0 },
+        { "name": "Masterdimmer", "type": "dimmer", "default": 255 },
+        { "name": "Strobe (6–255 = 1–20 Hz)", "type": "strobe", "default": 0 },
+        { "name": "Rot", "type": "red", "default": 0 },
+        { "name": "Grün", "type": "green", "default": 0 },
+        { "name": "Blau", "type": "blue", "default": 0 },
+        { "name": "Weiß", "type": "white", "default": 0 },
+        { "name": "Amber", "type": "amber", "default": 0 },
+        { "name": "UV", "type": "uv", "default": 0 },
+        { "name": "Farbmakros / Farbwechsel", "type": "colorwheel", "default": 0 },
+        { "name": "Auto/Sound-Programm (16–135 Auto 1–8, 136–255 Sound 1–8)", "type": "program", "default": 0 },
+        { "name": "Geschwindigkeit Programme", "type": "speed", "default": 0 }
+      ]
+    },
+    {
+      "name": "23 Kanäle (3 Gruppen)",
+      "channels": [
+        { "name": "Rotation (0–5 aus, 6–126 rechts, 127–128 Stopp, 129–255 links)", "type": "effect", "default": 0 },
+        { "name": "Masterdimmer", "type": "dimmer", "default": 255 },
+        { "name": "Strobe (6–255 = 1–20 Hz)", "type": "strobe", "default": 0 },
+        { "name": "Rot Gruppe 1", "type": "red", "default": 0 },
+        { "name": "Grün Gruppe 1", "type": "green", "default": 0 },
+        { "name": "Blau Gruppe 1", "type": "blue", "default": 0 },
+        { "name": "Weiß Gruppe 1", "type": "white", "default": 0 },
+        { "name": "Amber Gruppe 1", "type": "amber", "default": 0 },
+        { "name": "UV Gruppe 1", "type": "uv", "default": 0 },
+        { "name": "Rot Gruppe 2", "type": "red", "default": 0 },
+        { "name": "Grün Gruppe 2", "type": "green", "default": 0 },
+        { "name": "Blau Gruppe 2", "type": "blue", "default": 0 },
+        { "name": "Weiß Gruppe 2", "type": "white", "default": 0 },
+        { "name": "Amber Gruppe 2", "type": "amber", "default": 0 },
+        { "name": "UV Gruppe 2", "type": "uv", "default": 0 },
+        { "name": "Rot Gruppe 3", "type": "red", "default": 0 },
+        { "name": "Grün Gruppe 3", "type": "green", "default": 0 },
+        { "name": "Blau Gruppe 3", "type": "blue", "default": 0 },
+        { "name": "Weiß Gruppe 3", "type": "white", "default": 0 },
+        { "name": "Amber Gruppe 3", "type": "amber", "default": 0 },
+        { "name": "UV Gruppe 3", "type": "uv", "default": 0 },
+        { "name": "Auto/Sound-Programm (16–135 Auto 1–8, 136–255 Sound 1–8)", "type": "program", "default": 0 },
+        { "name": "Geschwindigkeit Programme", "type": "speed", "default": 0 }
+      ]
+    }
+  ]
+}

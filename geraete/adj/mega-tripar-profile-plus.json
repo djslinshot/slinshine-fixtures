@@ -1,0 +1,67 @@
+{
+  "label": "Mega TRIPAR Profile Plus",
+  "name": "Mega TRIPAR Profile Plus",
+  "manufacturer": "ADJ (American DJ)",
+  "kind": "auto",
+  "modes": [
+    {
+      "name": "4 channel",
+      "channels": [
+        { "name": "Red", "type": "red", "default": 0 },
+        { "name": "Green", "type": "green", "default": 0 },
+        { "name": "Blue", "type": "blue", "default": 0 },
+        { "name": "UV", "type": "uv", "default": 0 }
+      ]
+    },
+    {
+      "name": "5 channel",
+      "channels": [
+        { "name": "Red", "type": "red", "default": 0 },
+        { "name": "Green", "type": "green", "default": 0 },
+        { "name": "Blue", "type": "blue", "default": 0 },
+        { "name": "UV", "type": "uv", "default": 0 },
+        { "name": "Master Dimmer", "type": "dimmer", "default": 255 }
+      ]
+    },
+    {
+      "name": "6 channel",
+      "channels": [
+        { "name": "Red", "type": "red", "default": 0 },
+        { "name": "Green", "type": "green", "default": 0 },
+        { "name": "Blue", "type": "blue", "default": 0 },
+        { "name": "UV", "type": "uv", "default": 0 },
+        { "name": "Shutter/Strobe", "type": "strobe", "default": 32 },
+        { "name": "Master Dimmer", "type": "dimmer", "default": 255 }
+      ]
+    },
+    {
+      "name": "9 channel",
+      "channels": [
+        { "name": "Red", "type": "red", "default": 0 },
+        { "name": "Blue", "type": "blue", "default": 0 },
+        { "name": "Green", "type": "green", "default": 0 },
+        { "name": "UV", "type": "uv", "default": 0 },
+        { "name": "Shutter/Strobe", "type": "strobe", "default": 32 },
+        { "name": "Master Dimmer", "type": "dimmer", "default": 255 },
+        { "name": "Program Selection Mode", "type": "reset", "default": 0 },
+        { "name": "Program Selection", "type": "colorwheel", "default": 0 },
+        { "name": "Program Speed / Sound Sensitivity", "type": "other", "default": 0 }
+      ]
+    },
+    {
+      "name": "10 channel",
+      "channels": [
+        { "name": "Red", "type": "red", "default": 0 },
+        { "name": "Green", "type": "green", "default": 0 },
+        { "name": "Blue", "type": "blue", "default": 0 },
+        { "name": "UV", "type": "uv", "default": 0 },
+        { "name": "Shutter/Strobe", "type": "strobe", "default": 0 },
+        { "name": "Master Dimmer", "type": "dimmer", "default": 0 },
+        { "name": "Program Selection Mode", "type": "reset", "default": 0 },
+        { "name": "Program Selection", "type": "colorwheel", "default": 0 },
+        { "name": "Program Speed / Sound Sensitivity", "type": "other", "default": 0 },
+        { "name": "Dimmer Curves", "type": "reset", "default": 0 }
+      ]
+    }
+  ]
+}

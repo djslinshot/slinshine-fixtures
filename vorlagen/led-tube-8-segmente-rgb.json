@@ -1,6 +1,7 @@
 {
-  "label": "LED-Tube mit 8 Segmenten (Pixel, je RGB)",
+  "label": "LED-Tube 8 Segmente RGB",
   "name": "Pixel-Tube",
+  "manufacturer": "Generisch",
   "kind": "tube",
   "modes": [
     {

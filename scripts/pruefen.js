@@ -5,7 +5,7 @@ const path = require('path');
 
 const root = path.join(__dirname, '..');
 const types = JSON.parse(fs.readFileSync(path.join(root, 'kanaltypen.json'), 'utf8'));
-const kinds = ['generic', 'movinghead', 'tube'];
+const kinds = ['auto', 'generic', 'bar', 'movinghead', 'tube'];
 
 function files(dir) {
   return fs.readdirSync(dir, { withFileTypes: true }).flatMap((e) => {

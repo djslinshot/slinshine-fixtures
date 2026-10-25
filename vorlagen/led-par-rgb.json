@@ -1,7 +1,8 @@
 {
   "label": "LED-PAR RGB (3 Kanäle)",
   "name": "PAR RGB",
-  "kind": "generic",
+  "manufacturer": "Generisch",
+  "kind": "auto",
   "modes": [
     {
       "name": "3 Kanäle",

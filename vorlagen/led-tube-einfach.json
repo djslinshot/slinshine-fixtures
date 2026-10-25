@@ -1,6 +1,7 @@
 {
-  "label": "LED-Tube einfach (Dimmer + RGB + Strobe)",
+  "label": "LED-Tube einfach",
   "name": "Tube",
+  "manufacturer": "Generisch",
   "kind": "tube",
   "modes": [
     {

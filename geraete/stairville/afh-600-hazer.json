@@ -1,0 +1,14 @@
+{
+  "label": "AFH-600 Hazer",
+  "name": "Hazer",
+  "manufacturer": "Stairville",
+  "kind": "auto",
+  "modes": [
+    {
+      "name": "1 Kanal",
+      "channels": [
+        { "name": "Dunstmenge (0–100 %)", "type": "effect", "default": 0 }
+      ]
+    }
+  ]
+}

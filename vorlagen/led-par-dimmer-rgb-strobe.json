@@ -1,7 +1,8 @@
 {
-  "label": "LED-PAR Dimmer + RGB + Strobe (5 Kanäle)",
+  "label": "LED-PAR Dimmer RGB Strobe (5 Kanäle)",
   "name": "PAR",
-  "kind": "generic",
+  "manufacturer": "Generisch",
+  "kind": "auto",
   "modes": [
     {
       "name": "5 Kanäle",

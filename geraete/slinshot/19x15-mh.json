@@ -1,9 +1,9 @@
 {
-  "label": "19x15 MH Slinshot (Moving Head, 25 oder 17 Kanäle)",
+  "label": "19x15 MH",
   "name": "19x15 MH Slinshot",
   "manufacturer": "Slinshot",
   "kind": "movinghead",
-  "source": "Kanalbelegung laut Anleitung (Foto von Nils), Kapitel 4 \"Channel Description\".",
+  "source": "Anleitung (Foto von Nils), Kapitel 4 \"Channel Description\"",
   "modes": [
     {
       "name": "25 Kanäle (3 Farbringe einzeln)",
@@ -26,7 +26,7 @@
         { "name": "Ring 3 Weiß", "type": "white", "default": 0 },
         { "name": "Strobe", "type": "strobe", "default": 0 },
         { "name": "Zoom", "type": "zoom", "default": 0 },
-        { "name": "Auto / LED-Effekte (0-9 aus, 10-159 Farben, 160-179 Verlauf, 180-199 Sprung, 200-219 Kreis, 220-239 Auto, 240-255 Sound)", "type": "program", "default": 0 },
+        { "name": "Auto / LED-Effekte", "type": "program", "default": 0 },
         { "name": "Auto-Speed", "type": "other", "default": 0 },
         { "name": "Pan fein", "type": "pan_fine", "default": 0 },
         { "name": "Tilt fein", "type": "tilt_fine", "default": 0 },
@@ -48,7 +48,7 @@
         { "name": "Weiß", "type": "white", "default": 0 },
         { "name": "Strobe", "type": "strobe", "default": 0 },
         { "name": "Zoom", "type": "zoom", "default": 0 },
-        { "name": "Auto / LED-Effekte (0-9 aus, 10-159 Farben, 160-179 Verlauf, 180-199 Sprung, 200-219 Kreis, 220-239 Auto, 240-255 Sound)", "type": "program", "default": 0 },
+        { "name": "Auto / LED-Effekte", "type": "program", "default": 0 },
         { "name": "Auto-Speed", "type": "other", "default": 0 },
         { "name": "Pan fein", "type": "pan_fine", "default": 0 },
         { "name": "Tilt fein", "type": "tilt_fine", "default": 0 },

@@ -1,9 +1,9 @@
 {
-  "label": "Both Lighting 360 Tube (alle Modi: 5/6/7/12/40/80/160 Kanäle)",
+  "label": "360 Tube (BO-TUBE192)",
   "name": "360 Tube",
   "manufacturer": "Both Lighting",
   "kind": "tube",
-  "source": "Kanalbelegung laut Anleitung BO-TUBE192, Seite 8–9.",
+  "source": "Anleitung BO-TUBE192, Seite 8–9",
   "modes": [
     {
       "name": "5 Kanäle (RGBW + Gelb)",

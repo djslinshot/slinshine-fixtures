@@ -1,6 +1,7 @@
 {
-  "label": "Moving Head Grundgerüst (bitte an Anleitung anpassen)",
+  "label": "Moving Head Grundgerüst",
   "name": "Moving Head",
+  "manufacturer": "Generisch",
   "kind": "movinghead",
   "modes": [
     {

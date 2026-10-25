@@ -9,3 +9,4 @@ jobs:
         with:
           node-version: 20
       - run: node scripts/pruefen.js
+      - run: node scripts/index.js --check

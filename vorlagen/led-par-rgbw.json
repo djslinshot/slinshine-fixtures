@@ -1,7 +1,8 @@
 {
   "label": "LED-PAR RGBW (4 Kanäle)",
   "name": "PAR RGBW",
-  "kind": "generic",
+  "manufacturer": "Generisch",
+  "kind": "auto",
   "modes": [
     {
       "name": "4 Kanäle",

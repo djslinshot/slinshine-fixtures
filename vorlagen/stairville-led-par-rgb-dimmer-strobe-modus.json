@@ -1,7 +1,8 @@
 {
-  "label": "LED-PAR RGB + Dimmer + Strobe + Modus (Stairville-Stil, 7 Kanäle)",
+  "label": "LED-PAR RGB Dimmer Strobe Modus (7 Kanäle)",
   "name": "Stairville PAR",
-  "kind": "generic",
+  "manufacturer": "Stairville",
+  "kind": "auto",
   "modes": [
     {
       "name": "7 Kanäle",

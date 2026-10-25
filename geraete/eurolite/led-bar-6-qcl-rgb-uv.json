@@ -1,0 +1,59 @@
+{
+  "label": "LED BAR-6 QCL RGB+UV",
+  "name": "BAR-6",
+  "manufacturer": "Eurolite",
+  "kind": "bar",
+  "modes": [
+    {
+      "name": "2 Kanäle",
+      "channels": [
+        { "name": "Programm (0–9 aus, 10–119 Automatik, 120–255 Musik)", "type": "program", "default": 0 },
+        { "name": "Geschwindigkeit Automatik", "type": "speed", "default": 0 }
+      ]
+    },
+    {
+      "name": "4 Kanäle",
+      "channels": [
+        { "name": "Rot", "type": "red", "default": 0 },
+        { "name": "Grün", "type": "green", "default": 0 },
+        { "name": "Blau", "type": "blue", "default": 0 },
+        { "name": "UV", "type": "uv", "default": 0 }
+      ]
+    },
+    {
+      "name": "5 Kanäle",
+      "channels": [
+        { "name": "Dimmer", "type": "dimmer", "default": 255 },
+        { "name": "Farbmakros (10er-Schritte: Rot, Grün, Blau, UV, … 200–255 Lavendel)", "type": "colorwheel", "default": 0 },
+        { "name": "Strobe (0–9 aus, 10–255 langsam → schnell)", "type": "strobe", "default": 0 },
+        { "name": "Programm (0–9 aus, 10–119 Automatik, 120–255 Musik)", "type": "program", "default": 0 },
+        { "name": "Geschwindigkeit Automatik", "type": "speed", "default": 0 }
+      ]
+    },
+    {
+      "name": "6 Kanäle",
+      "channels": [
+        { "name": "Rot", "type": "red", "default": 0 },
+        { "name": "Grün", "type": "green", "default": 0 },
+        { "name": "Blau", "type": "blue", "default": 0 },
+        { "name": "UV", "type": "uv", "default": 0 },
+        { "name": "Dimmer", "type": "dimmer", "default": 255 },
+        { "name": "Strobe (0 aus, 1–5 Musik, 6–10 aus, 11–255 Strobe)", "type": "strobe", "default": 0 }
+      ]
+    },
+    {
+      "name": "9 Kanäle",
+      "channels": [
+        { "name": "Rot", "type": "red", "default": 0 },
+        { "name": "Grün", "type": "green", "default": 0 },
+        { "name": "Blau", "type": "blue", "default": 0 },
+        { "name": "UV", "type": "uv", "default": 0 },
+        { "name": "Farbtemperatur (10–255: 2700K → 8000K)", "type": "colorwheel", "default": 0 },
+        { "name": "Dimmer", "type": "dimmer", "default": 255 },
+        { "name": "Strobe (0–9 aus, 10–255 langsam → schnell)", "type": "strobe", "default": 0 },
+        { "name": "Programm (0–9 aus, 10–119 Automatik, 120–255 Musik)", "type": "program", "default": 0 },
+        { "name": "Geschwindigkeit Automatik", "type": "speed", "default": 0 }
+      ]
+    }
+  ]
+}
