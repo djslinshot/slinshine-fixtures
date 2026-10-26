@@ -1,7 +1,8 @@
 {
-  "label": "LED-PAR RGB (3 Kanäle)",
-  "name": "PAR RGB",
+  "format": "slinshine-fixture-1",
   "manufacturer": "Generisch",
+  "model": "LED-PAR RGB (3 Kanäle)",
+  "name": "PAR RGB",
   "kind": "auto",
   "modes": [
     {

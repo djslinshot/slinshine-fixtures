@@ -1,7 +1,8 @@
 {
-  "label": "Mega TRIPAR Profile Plus",
-  "name": "Mega TRIPAR Profile Plus",
+  "format": "slinshine-fixture-1",
   "manufacturer": "ADJ (American DJ)",
+  "model": "Mega TRIPAR Profile Plus",
+  "name": "Mega TRIPAR Profile Plus",
   "kind": "auto",
   "modes": [
     {

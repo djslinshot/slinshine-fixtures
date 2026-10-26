@@ -1,16 +1,18 @@
 {
-  "label": "LED-PAR RGBW (4 Kanäle)",
-  "name": "PAR RGBW",
+  "format": "slinshine-fixture-1",
   "manufacturer": "Generisch",
+  "model": "LED-PAR Dimmer RGB Strobe (5 Kanäle)",
+  "name": "PAR",
   "kind": "auto",
   "modes": [
     {
-      "name": "4 Kanäle",
+      "name": "5 Kanäle",
       "channels": [
+        { "name": "Dimmer", "type": "dimmer", "default": 255 },
         { "name": "Rot", "type": "red", "default": 0 },
         { "name": "Grün", "type": "green", "default": 0 },
         { "name": "Blau", "type": "blue", "default": 0 },
-        { "name": "Weiß", "type": "white", "default": 0 }
+        { "name": "Strobe", "type": "strobe", "default": 0 }
       ]
     }
   ]

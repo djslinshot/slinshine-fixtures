@@ -1,7 +1,8 @@
 {
-  "label": "LED BARbara 16",
-  "name": "BARbara",
-  "manufacturer": "Fun Generation",
+  "format": "slinshine-fixture-1",
+  "manufacturer": "Varytec",
+  "model": "Giga Bar Pix 8 RGB",
+  "name": "Giga Bar",
   "kind": "bar",
   "modes": [
     {
@@ -9,24 +10,6 @@
       "channels": [
         { "name": "Muster / Shows (0–7 aus, 8–63 Farben, 64–231 Auto-Shows, 232–255 Musik)", "type": "program", "default": 0 },
         { "name": "Speed (Auto-Shows) bzw. Mikro-Empfindlichkeit (Musik-Show), je nach Kanal 1", "type": "speed", "default": 0 }
-      ]
-    },
-    {
-      "name": "3 Kanäle",
-      "channels": [
-        { "name": "Rot", "type": "red", "default": 0 },
-        { "name": "Grün", "type": "green", "default": 0 },
-        { "name": "Blau", "type": "blue", "default": 0 }
-      ]
-    },
-    {
-      "name": "5 Kanäle",
-      "channels": [
-        { "name": "Rot", "type": "red", "default": 0 },
-        { "name": "Grün", "type": "green", "default": 0 },
-        { "name": "Blau", "type": "blue", "default": 0 },
-        { "name": "Dimmer", "type": "dimmer", "default": 255 },
-        { "name": "Strobe", "type": "strobe", "default": 0 }
       ]
     },
     {

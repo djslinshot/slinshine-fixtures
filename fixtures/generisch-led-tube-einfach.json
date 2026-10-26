@@ -1,8 +1,9 @@
 {
-  "label": "LED-PAR Dimmer RGB Strobe (5 Kanäle)",
-  "name": "PAR",
+  "format": "slinshine-fixture-1",
   "manufacturer": "Generisch",
-  "kind": "auto",
+  "model": "LED-Tube einfach",
+  "name": "Tube",
+  "kind": "tube",
   "modes": [
     {
       "name": "5 Kanäle",

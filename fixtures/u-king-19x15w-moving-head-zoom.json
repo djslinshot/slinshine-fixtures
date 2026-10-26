@@ -1,7 +1,8 @@
 {
-  "label": "19x15W Moving Head Zoom",
-  "name": "U'King Zoom",
+  "format": "slinshine-fixture-1",
   "manufacturer": "U'King",
+  "model": "19x15W Moving Head Zoom",
+  "name": "U'King Zoom",
   "kind": "movinghead",
   "modes": [
     {

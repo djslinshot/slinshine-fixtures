@@ -1,5 +1,5 @@
 // Erzeugt index.json: eine kleine Liste aller Geräte, damit SLINSHINE beim Suchen nur eine Datei laden muss.
-// Aufruf: node scripts/index.js (nach jeder Änderung an geraete/ oder vorlagen/)
+// Aufruf: node scripts/index.js (nach jeder Änderung in fixtures/)
 const fs = require('fs');
 const path = require('path');
 
@@ -12,11 +12,11 @@ function files(dir) {
   });
 }
 
-const fixtures = ['geraete', 'vorlagen'].flatMap((d) => files(path.join(root, d))).sort().map((file) => {
+const fixtures = files(path.join(root, 'fixtures')).sort().map((file) => {
   const fx = JSON.parse(fs.readFileSync(file, 'utf8'));
   return {
     path: path.relative(root, file).split(path.sep).join('/'),
-    label: fx.label,
+    model: fx.model,
     name: fx.name,
     manufacturer: fx.manufacturer || '',
     kind: fx.kind,

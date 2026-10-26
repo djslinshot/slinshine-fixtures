@@ -1,7 +1,8 @@
 {
-  "label": "Moving Head Grundgerüst",
-  "name": "Moving Head",
+  "format": "slinshine-fixture-1",
   "manufacturer": "Generisch",
+  "model": "Moving Head Grundgerüst",
+  "name": "Moving Head",
   "kind": "movinghead",
   "modes": [
     {

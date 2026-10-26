@@ -2,8 +2,8 @@
   "version": 1,
   "fixtures": [
     {
-      "path": "geraete/adj/mega-tripar-profile-plus.json",
-      "label": "Mega TRIPAR Profile Plus",
+      "path": "fixtures/adj-mega-tripar-profile-plus.json",
+      "model": "Mega TRIPAR Profile Plus",
       "name": "Mega TRIPAR Profile Plus",
       "manufacturer": "ADJ (American DJ)",
       "kind": "auto",
@@ -16,8 +16,8 @@
       ]
     },
     {
-      "path": "geraete/both-lighting/360-tube-bo-tube192.json",
-      "label": "360 Tube (BO-TUBE192)",
+      "path": "fixtures/both-lighting-360-tube-bo-tube192.json",
+      "model": "360 Tube (BO-TUBE192)",
       "name": "360 Tube",
       "manufacturer": "Both Lighting",
       "kind": "tube",
@@ -32,8 +32,8 @@
       ]
     },
     {
-      "path": "geraete/eurolite/led-b-40-hcl-beam-effect-mk2.json",
-      "label": "LED B-40 HCL Beam Effect MK2",
+      "path": "fixtures/eurolite-led-b-40-hcl-beam-effect-mk2.json",
+      "model": "LED B-40 HCL Beam Effect MK2",
       "name": "B-40",
       "manufacturer": "Eurolite",
       "kind": "auto",
@@ -44,8 +44,8 @@
       ]
     },
     {
-      "path": "geraete/eurolite/led-bar-6-qcl-rgb-uv.json",
-      "label": "LED BAR-6 QCL RGB+UV",
+      "path": "fixtures/eurolite-led-bar-6-qcl-rgb-uv.json",
+      "model": "LED BAR-6 QCL RGB+UV",
       "name": "BAR-6",
       "manufacturer": "Eurolite",
       "kind": "bar",
@@ -58,8 +58,8 @@
       ]
     },
     {
-      "path": "geraete/fun-generation/led-barbara-16.json",
-      "label": "LED BARbara 16",
+      "path": "fixtures/fun-generation-led-barbara-16.json",
+      "model": "LED BARbara 16",
       "name": "BARbara",
       "manufacturer": "Fun Generation",
       "kind": "bar",
@@ -71,8 +71,68 @@
       ]
     },
     {
-      "path": "geraete/slinshot/19x15-mh.json",
-      "label": "19x15 MH",
+      "path": "fixtures/generisch-led-par-dimmer-rgb-strobe-5-kanale.json",
+      "model": "LED-PAR Dimmer RGB Strobe (5 Kanäle)",
+      "name": "PAR",
+      "manufacturer": "Generisch",
+      "kind": "auto",
+      "modes": [
+        "5 Kanäle"
+      ]
+    },
+    {
+      "path": "fixtures/generisch-led-par-rgb-3-kanale.json",
+      "model": "LED-PAR RGB (3 Kanäle)",
+      "name": "PAR RGB",
+      "manufacturer": "Generisch",
+      "kind": "auto",
+      "modes": [
+        "3 Kanäle"
+      ]
+    },
+    {
+      "path": "fixtures/generisch-led-par-rgbw-4-kanale.json",
+      "model": "LED-PAR RGBW (4 Kanäle)",
+      "name": "PAR RGBW",
+      "manufacturer": "Generisch",
+      "kind": "auto",
+      "modes": [
+        "4 Kanäle"
+      ]
+    },
+    {
+      "path": "fixtures/generisch-led-tube-8-segmente-rgb.json",
+      "model": "LED-Tube 8 Segmente RGB",
+      "name": "Pixel-Tube",
+      "manufacturer": "Generisch",
+      "kind": "tube",
+      "modes": [
+        "24 Kanäle"
+      ]
+    },
+    {
+      "path": "fixtures/generisch-led-tube-einfach.json",
+      "model": "LED-Tube einfach",
+      "name": "Tube",
+      "manufacturer": "Generisch",
+      "kind": "tube",
+      "modes": [
+        "5 Kanäle"
+      ]
+    },
+    {
+      "path": "fixtures/generisch-moving-head-grundgerust.json",
+      "model": "Moving Head Grundgerüst",
+      "name": "Moving Head",
+      "manufacturer": "Generisch",
+      "kind": "movinghead",
+      "modes": [
+        "17 Kanäle"
+      ]
+    },
+    {
+      "path": "fixtures/slinshot-19x15-mh.json",
+      "model": "19x15 MH",
       "name": "19x15 MH Slinshot",
       "manufacturer": "Slinshot",
       "kind": "movinghead",
@@ -82,8 +142,8 @@
       ]
     },
     {
-      "path": "geraete/stairville/afh-600-hazer.json",
-      "label": "AFH-600 Hazer",
+      "path": "fixtures/stairville-afh-600-hazer.json",
+      "model": "AFH-600 Hazer",
       "name": "Hazer",
       "manufacturer": "Stairville",
       "kind": "auto",
@@ -92,8 +152,18 @@
       ]
     },
     {
-      "path": "geraete/uking/19x15w-moving-head-zoom.json",
-      "label": "19x15W Moving Head Zoom",
+      "path": "fixtures/stairville-led-par-rgb-dimmer-strobe-modus-7-kanale.json",
+      "model": "LED-PAR RGB Dimmer Strobe Modus (7 Kanäle)",
+      "name": "Stairville PAR",
+      "manufacturer": "Stairville",
+      "kind": "auto",
+      "modes": [
+        "7 Kanäle"
+      ]
+    },
+    {
+      "path": "fixtures/u-king-19x15w-moving-head-zoom.json",
+      "model": "19x15W Moving Head Zoom",
       "name": "U'King Zoom",
       "manufacturer": "U'King",
       "kind": "movinghead",
@@ -102,84 +172,14 @@
       ]
     },
     {
-      "path": "geraete/varytec/giga-bar-pix-8-rgb.json",
-      "label": "Giga Bar Pix 8 RGB",
+      "path": "fixtures/varytec-giga-bar-pix-8-rgb.json",
+      "model": "Giga Bar Pix 8 RGB",
       "name": "Giga Bar",
       "manufacturer": "Varytec",
       "kind": "bar",
       "modes": [
         "2 Kanäle",
         "24 Kanäle (8 Segmente)"
-      ]
-    },
-    {
-      "path": "vorlagen/led-par-dimmer-rgb-strobe.json",
-      "label": "LED-PAR Dimmer RGB Strobe (5 Kanäle)",
-      "name": "PAR",
-      "manufacturer": "Generisch",
-      "kind": "auto",
-      "modes": [
-        "5 Kanäle"
-      ]
-    },
-    {
-      "path": "vorlagen/led-par-rgb.json",
-      "label": "LED-PAR RGB (3 Kanäle)",
-      "name": "PAR RGB",
-      "manufacturer": "Generisch",
-      "kind": "auto",
-      "modes": [
-        "3 Kanäle"
-      ]
-    },
-    {
-      "path": "vorlagen/led-par-rgbw.json",
-      "label": "LED-PAR RGBW (4 Kanäle)",
-      "name": "PAR RGBW",
-      "manufacturer": "Generisch",
-      "kind": "auto",
-      "modes": [
-        "4 Kanäle"
-      ]
-    },
-    {
-      "path": "vorlagen/led-tube-8-segmente-rgb.json",
-      "label": "LED-Tube 8 Segmente RGB",
-      "name": "Pixel-Tube",
-      "manufacturer": "Generisch",
-      "kind": "tube",
-      "modes": [
-        "24 Kanäle"
-      ]
-    },
-    {
-      "path": "vorlagen/led-tube-einfach.json",
-      "label": "LED-Tube einfach",
-      "name": "Tube",
-      "manufacturer": "Generisch",
-      "kind": "tube",
-      "modes": [
-        "5 Kanäle"
-      ]
-    },
-    {
-      "path": "vorlagen/moving-head-grundgeruest.json",
-      "label": "Moving Head Grundgerüst",
-      "name": "Moving Head",
-      "manufacturer": "Generisch",
-      "kind": "movinghead",
-      "modes": [
-        "17 Kanäle"
-      ]
-    },
-    {
-      "path": "vorlagen/stairville-led-par-rgb-dimmer-strobe-modus.json",
-      "label": "LED-PAR RGB Dimmer Strobe Modus (7 Kanäle)",
-      "name": "Stairville PAR",
-      "manufacturer": "Stairville",
-      "kind": "auto",
-      "modes": [
-        "7 Kanäle"
       ]
     }
   ]

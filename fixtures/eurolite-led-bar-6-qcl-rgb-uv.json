@@ -1,7 +1,8 @@
 {
-  "label": "LED BAR-6 QCL RGB+UV",
-  "name": "BAR-6",
+  "format": "slinshine-fixture-1",
   "manufacturer": "Eurolite",
+  "model": "LED BAR-6 QCL RGB+UV",
+  "name": "BAR-6",
   "kind": "bar",
   "modes": [
     {

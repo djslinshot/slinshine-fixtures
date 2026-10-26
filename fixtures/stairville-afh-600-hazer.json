@@ -1,7 +1,8 @@
 {
-  "label": "AFH-600 Hazer",
-  "name": "Hazer",
+  "format": "slinshine-fixture-1",
   "manufacturer": "Stairville",
+  "model": "AFH-600 Hazer",
+  "name": "Hazer",
   "kind": "auto",
   "modes": [
     {

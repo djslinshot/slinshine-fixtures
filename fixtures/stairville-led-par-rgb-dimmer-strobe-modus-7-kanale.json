@@ -1,7 +1,8 @@
 {
-  "label": "LED-PAR RGB Dimmer Strobe Modus (7 Kanäle)",
-  "name": "Stairville PAR",
+  "format": "slinshine-fixture-1",
   "manufacturer": "Stairville",
+  "model": "LED-PAR RGB Dimmer Strobe Modus (7 Kanäle)",
+  "name": "Stairville PAR",
   "kind": "auto",
   "modes": [
     {

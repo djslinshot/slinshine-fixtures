@@ -1,7 +1,8 @@
 {
-  "label": "LED B-40 HCL Beam Effect MK2",
-  "name": "B-40",
+  "format": "slinshine-fixture-1",
   "manufacturer": "Eurolite",
+  "model": "LED B-40 HCL Beam Effect MK2",
+  "name": "B-40",
   "kind": "auto",
   "modes": [
     {

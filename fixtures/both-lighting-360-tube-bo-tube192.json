@@ -1,9 +1,10 @@
 {
-  "label": "360 Tube (BO-TUBE192)",
-  "name": "360 Tube",
+  "format": "slinshine-fixture-1",
   "manufacturer": "Both Lighting",
+  "model": "360 Tube (BO-TUBE192)",
+  "name": "360 Tube",
   "kind": "tube",
-  "source": "Anleitung BO-TUBE192, Seite 8–9",
+  "note": "Anleitung BO-TUBE192, Seite 8–9",
   "modes": [
     {
       "name": "5 Kanäle (RGBW + Gelb)",

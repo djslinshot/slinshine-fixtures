@@ -6,13 +6,12 @@ Die eigene Geräte-Library (Fixtures) für die SLINSHINE-Lichtsoftware. Jedes Ge
 
 | Ordner | Was drin ist |
 |---|---|
-| `geraete/` | Echte Geräte mit Kanalbelegung laut Anleitung, sortiert nach Hersteller |
-| `vorlagen/` | Allgemeine Startpunkte (PAR, Tube, Moving Head), die man an ein Gerät anpasst |
+| `fixtures/` | Ein Gerät pro Datei, genau wie im SLINSHINE-Ordner `fixtures/`. Allgemeine Startpunkte heißen `generisch-…` |
 | `index.json` | Liste aller Geräte, die SLINSHINE beim Suchen lädt (wird erzeugt) |
 | `kanaltypen.json` | Alle Kanaltypen, die SLINSHINE kennt (z. B. `red`, `pan`, `strobe`) |
 | `scripts/pruefen.js` | Prüft alle Dateien auf Fehler |
 
-Aktuell in `geraete/`:
+Aktuell an echten Geräten:
 
 - **Slinshot 19x15 MH** (Moving Head, 25 oder 17 Kanäle)
 - **U'King 19x15W Moving Head Zoom** (16 Kanäle)
@@ -28,32 +27,36 @@ Aktuell in `geraete/`:
 
 ```json
 {
-  "label": "19x15 MH Slinshot (Moving Head, 25 oder 17 Kanäle)",
-  "name": "19x15 MH Slinshot",
+  "format": "slinshine-fixture-1",
   "manufacturer": "Slinshot",
+  "model": "19x15 MH",
+  "name": "19x15 MH Slinshot",
   "kind": "movinghead",
-  "source": "Woher die Kanalbelegung stammt",
+  "note": "19x15 MH Slinshot (Moving Head, 25 oder 17 Kanäle)",
   "modes": [
     {
       "name": "17 Kanäle (alle Ringe gemeinsam)",
       "channels": [
         { "name": "Pan", "type": "pan", "default": 128 },
-        { "name": "Dimmer", "type": "dimmer", "default": 255 }
+        { "name": "Reset (250-255 für 3 s)", "type": "reset", "default": 0, "info": "250-255 für 3 Sekunden halten = Reset" }
       ]
     }
   ]
 }
 ```
 
-- `label`: so steht das Gerät in der Auswahlliste
-- `name`: Standardname, wenn man das Gerät anlegt
+- `format`: immer `slinshine-fixture-1`
+- `manufacturer`, `model`: Hersteller und Modell, so steht das Gerät in der Auswahlliste (bis 60 bzw. 80 Zeichen)
+- `name`: Standardname, wenn man das Gerät anlegt (bis 60 Zeichen)
+- `note`: optionaler Hinweis (bis 200 Zeichen)
 - `kind`: `movinghead`, `tube`, `bar`, `generic` (Scheinwerfer, PAR usw.) oder `auto` (SLINSHINE erkennt es an den Kanälen)
 - `modes`: ein Eintrag pro Kanal-Modus, der am Gerät einstellbar ist. Die Reihenfolge der Kanäle ist die DMX-Reihenfolge ab der Startadresse.
 - `default`: Wert (0–255), den der Kanal beim Start hat
+- `info`: optional, z. B. welche Werte was bewirken (bis 400 Zeichen). Kanalnamen selbst kürzt SLINSHINE auf 40 Zeichen.
 
 ## Neues Gerät hinzufügen
 
-1. Eine vorhandene Datei kopieren, z. B. nach `geraete/<hersteller>/<geraet>.json`.
+1. Eine vorhandene Datei in `fixtures/` kopieren und als `<hersteller>-<modell>.json` benennen.
 2. Kanäle laut Anleitung eintragen. Als `type` nur Werte aus `kanaltypen.json` nehmen; unbekannte Kanäle als `other`.
 3. Liste neu erzeugen: `node scripts/index.js`
 4. Prüfen: `node scripts/pruefen.js` (läuft auch automatisch bei jedem Push auf GitHub).
@@ -61,3 +64,5 @@ Aktuell in `geraete/`:
 ## In SLINSHINE
 
 Im Tab **Geräte** gibt es neben der Online-Library die **SLINSHINE-Library**. Sie lädt die Geräteliste nur, wenn du dort suchst, nie im Hintergrund. Beim Hinzufügen wird das eine Gerät mit allen Modi gespeichert und funktioniert danach auch offline.
+
+Eine Datei aus diesem Repo kann man auch direkt in den SLINSHINE-Ordner `fixtures/` legen oder über **Gerät aus Datei importieren …** im Tab Geräte hinzufügen. Sie erscheint, sobald man den Tab Geräte öffnet.
