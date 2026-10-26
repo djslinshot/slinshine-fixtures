@@ -39,8 +39,8 @@
       "name": "9 channel",
       "channels": [
         { "name": "Red", "type": "red", "default": 0 },
-        { "name": "Blue", "type": "blue", "default": 0 },
         { "name": "Green", "type": "green", "default": 0 },
+        { "name": "Blue", "type": "blue", "default": 0 },
         { "name": "UV", "type": "uv", "default": 0 },
         { "name": "Shutter/Strobe", "type": "strobe", "default": 32 },
         { "name": "Master Dimmer", "type": "dimmer", "default": 255 },
